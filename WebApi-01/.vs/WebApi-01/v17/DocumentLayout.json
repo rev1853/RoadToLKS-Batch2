@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\risca\\projects\\RoadToLKS B2\\WebApi-01\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9C1C925A-3067-454C-9BDD-EA5A9B0BCA89}|WebApi-01.csproj|c:\\users\\risca\\projects\\roadtolks b2\\webapi-01\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C1C925A-3067-454C-9BDD-EA5A9B0BCA89}|WebApi-01.csproj|solutionrelative:dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C1C925A-3067-454C-9BDD-EA5A9B0BCA89}|WebApi-01.csproj|c:\\users\\risca\\projects\\roadtolks b2\\webapi-01\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C1C925A-3067-454C-9BDD-EA5A9B0BCA89}|WebApi-01.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9C1C925A-3067-454C-9BDD-EA5A9B0BCA89}|WebApi-01.csproj|c:\\users\\risca\\projects\\roadtolks b2\\webapi-01\\dtos\\storecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C1C925A-3067-454C-9BDD-EA5A9B0BCA89}|WebApi-01.csproj|solutionrelative:dtos\\storecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C1C925A-3067-454C-9BDD-EA5A9B0BCA89}|WebApi-01.csproj|c:\\users\\risca\\projects\\roadtolks b2\\webapi-01\\webapi-01.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9C1C925A-3067-454C-9BDD-EA5A9B0BCA89}|WebApi-01.csproj|solutionrelative:webapi-01.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9C1C925A-3067-454C-9BDD-EA5A9B0BCA89}|WebApi-01.csproj|c:\\users\\risca\\projects\\roadtolks b2\\webapi-01\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,19 +35,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "C:\\Users\\risca\\projects\\RoadToLKS B2\\WebApi-01\\DTOs\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\ProductDTO.cs",
+              "ToolTip": "C:\\Users\\risca\\projects\\RoadToLKS B2\\WebApi-01\\DTOs\\ProductDTO.cs",
+              "RelativeToolTip": "DTOs\\ProductDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T04:43:36.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\risca\\projects\\RoadToLKS B2\\WebApi-01\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\risca\\projects\\RoadToLKS B2\\WebApi-01\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwDAAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T04:39:24.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WebApi-01",
+              "DocumentMoniker": "C:\\Users\\risca\\projects\\RoadToLKS B2\\WebApi-01\\WebApi-01.csproj",
+              "RelativeDocumentMoniker": "WebApi-01.csproj",
+              "ToolTip": "C:\\Users\\risca\\projects\\RoadToLKS B2\\WebApi-01\\WebApi-01.csproj",
+              "RelativeToolTip": "WebApi-01.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-04T02:59:09.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "StoreCategoryDTO.cs",
               "DocumentMoniker": "C:\\Users\\risca\\projects\\RoadToLKS B2\\WebApi-01\\DTOs\\StoreCategoryDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\StoreCategoryDTO.cs",
               "ToolTip": "C:\\Users\\risca\\projects\\RoadToLKS B2\\WebApi-01\\DTOs\\StoreCategoryDTO.cs",
               "RelativeToolTip": "DTOs\\StoreCategoryDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-04T02:34:23.154Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\risca\\projects\\RoadToLKS B2\\WebApi-01\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
@@ -43,8 +94,7 @@
               "RelativeToolTip": "Controllers\\CategoryController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T02:08:19.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T02:08:19.052Z"
             }
           ]
         }
