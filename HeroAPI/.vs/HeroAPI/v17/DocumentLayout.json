@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\risca\\projects\\RoadToLKS B2\\HeroAPI\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{90F6C34C-B177-4099-9614-E591034800A2}|HeroAPI.csproj|c:\\users\\risca\\projects\\roadtolks b2\\heroapi\\controllers\\herocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90F6C34C-B177-4099-9614-E591034800A2}|HeroAPI.csproj|solutionrelative:controllers\\herocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90F6C34C-B177-4099-9614-E591034800A2}|HeroAPI.csproj|c:\\users\\risca\\projects\\roadtolks b2\\heroapi\\dtos\\herodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90F6C34C-B177-4099-9614-E591034800A2}|HeroAPI.csproj|solutionrelative:dtos\\herodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HeroDTO.cs",
+              "DocumentMoniker": "C:\\Users\\risca\\projects\\RoadToLKS B2\\HeroAPI\\DTOs\\HeroDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\HeroDTO.cs",
+              "ToolTip": "C:\\Users\\risca\\projects\\RoadToLKS B2\\HeroAPI\\DTOs\\HeroDTO.cs",
+              "RelativeToolTip": "DTOs\\HeroDTO.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAgwAwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T09:28:46.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HeroController.cs",
+              "DocumentMoniker": "C:\\Users\\risca\\projects\\RoadToLKS B2\\HeroAPI\\Controllers\\HeroController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HeroController.cs",
+              "ToolTip": "C:\\Users\\risca\\projects\\RoadToLKS B2\\HeroAPI\\Controllers\\HeroController.cs",
+              "RelativeToolTip": "Controllers\\HeroController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwCAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T09:28:13.477Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

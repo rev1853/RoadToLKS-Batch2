@@ -1,6 +1,13 @@
-using HeroAPI.Database;
+﻿using HeroAPI.Database;
+using Newtonsoft.Json;
 
 var builder = WebApplication.CreateBuilder(args);
+
+JsonConvert.DefaultSettings = () => new JsonSerializerSettings
+{
+    Formatting = Formatting.Indented,
+    ReferenceLoopHandling = ReferenceLoopHandling.Ignore
+};
 
 // Add services to the container.
 
@@ -18,5 +25,7 @@ app.UseSwaggerUI();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.MapSkillEndpoints();
 
 app.Run();

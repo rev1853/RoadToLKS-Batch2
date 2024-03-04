@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using HeroAPI.Database;
 using HeroAPI.DTOs;
+using System.Text.Json;
+using Newtonsoft.Json;
 
 namespace HeroAPI.Controllers
 {
@@ -30,16 +32,17 @@ namespace HeroAPI.Controllers
 
         // GET: api/Element/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Element>> GetElement(int id)
+        public async Task<ActionResult<ElementDTO>> GetElement(int id)
         {
-            var element = await _context.Elements.FindAsync(id);
+            var element = await _context.Elements.Include(e => e.Skills).FirstAsync(e => e.Id == id);
+            var el = JsonConvert.DeserializeObject<ElementDTO>(JsonConvert.SerializeObject(element));
 
             if (element == null)
             {
                 return NotFound();
             }
 
-            return element;
+            return Ok(el);
         }
 
         // PUT: api/Element/5

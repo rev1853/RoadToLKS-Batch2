@@ -251,3 +251,4 @@ C:\Users\risca\projects\RoadToLKS B2\HeroAPI\obj\Release\net8.0\refint\HeroAPI.d
 C:\Users\risca\projects\RoadToLKS B2\HeroAPI\obj\Release\net8.0\HeroAPI.pdb
 C:\Users\risca\projects\RoadToLKS B2\HeroAPI\obj\Release\net8.0\HeroAPI.genruntimeconfig.cache
 C:\Users\risca\projects\RoadToLKS B2\HeroAPI\obj\Release\net8.0\ref\HeroAPI.dll
+C:\Users\risca\projects\RoadToLKS B2\HeroAPI\bin\Release\net8.0\Microsoft.AspNetCore.OpenApi.dll
