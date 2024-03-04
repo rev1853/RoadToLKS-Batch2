@@ -1,0 +1,15 @@
+C:\Users\risca\projects\RoadToLKS B2\FilteringEsemkaLibrary\bin\Debug\FilteringEsemkaLibrary.exe.config
+C:\Users\risca\projects\RoadToLKS B2\FilteringEsemkaLibrary\bin\Debug\FilteringEsemkaLibrary.exe
+C:\Users\risca\projects\RoadToLKS B2\FilteringEsemkaLibrary\bin\Debug\FilteringEsemkaLibrary.pdb
+C:\Users\risca\projects\RoadToLKS B2\FilteringEsemkaLibrary\bin\Debug\EntityFramework.dll
+C:\Users\risca\projects\RoadToLKS B2\FilteringEsemkaLibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\risca\projects\RoadToLKS B2\FilteringEsemkaLibrary\bin\Debug\EntityFramework.xml
+C:\Users\risca\projects\RoadToLKS B2\FilteringEsemkaLibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\risca\projects\RoadToLKS B2\FilteringEsemkaLibrary\obj\Debug\FilteringEsemkaLibrary.csproj.AssemblyReference.cache
+C:\Users\risca\projects\RoadToLKS B2\FilteringEsemkaLibrary\obj\Debug\FilteringEsemkaLibrary.Form1.resources
+C:\Users\risca\projects\RoadToLKS B2\FilteringEsemkaLibrary\obj\Debug\FilteringEsemkaLibrary.Properties.Resources.resources
+C:\Users\risca\projects\RoadToLKS B2\FilteringEsemkaLibrary\obj\Debug\FilteringEsemkaLibrary.csproj.GenerateResource.cache
+C:\Users\risca\projects\RoadToLKS B2\FilteringEsemkaLibrary\obj\Debug\FilteringEsemkaLibrary.csproj.CoreCompileInputs.cache
+C:\Users\risca\projects\RoadToLKS B2\FilteringEsemkaLibrary\obj\Debug\FilteringEsemkaLibrary.csproj.CopyComplete
+C:\Users\risca\projects\RoadToLKS B2\FilteringEsemkaLibrary\obj\Debug\FilteringEsemkaLibrary.exe
+C:\Users\risca\projects\RoadToLKS B2\FilteringEsemkaLibrary\obj\Debug\FilteringEsemkaLibrary.pdb

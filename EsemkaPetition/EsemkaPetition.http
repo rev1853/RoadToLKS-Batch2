@@ -1,0 +1,6 @@
+@EsemkaPetition_HostAddress = http://localhost:5000
+
+GET {{EsemkaPetition_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

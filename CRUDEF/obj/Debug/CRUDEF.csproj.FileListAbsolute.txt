@@ -1,0 +1,17 @@
+C:\Users\risca\projects\RoadToLKS B2\CRUDEF\bin\Debug\CRUDEF.exe.config
+C:\Users\risca\projects\RoadToLKS B2\CRUDEF\bin\Debug\CRUDEF.exe
+C:\Users\risca\projects\RoadToLKS B2\CRUDEF\bin\Debug\CRUDEF.pdb
+C:\Users\risca\projects\RoadToLKS B2\CRUDEF\bin\Debug\EntityFramework.dll
+C:\Users\risca\projects\RoadToLKS B2\CRUDEF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\risca\projects\RoadToLKS B2\CRUDEF\bin\Debug\EntityFramework.xml
+C:\Users\risca\projects\RoadToLKS B2\CRUDEF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\risca\projects\RoadToLKS B2\CRUDEF\obj\Debug\CRUDEF.csproj.AssemblyReference.cache
+C:\Users\risca\projects\RoadToLKS B2\CRUDEF\obj\Debug\CRUDEF.Form1.resources
+C:\Users\risca\projects\RoadToLKS B2\CRUDEF\obj\Debug\CRUDEF.Properties.Resources.resources
+C:\Users\risca\projects\RoadToLKS B2\CRUDEF\obj\Debug\CRUDEF.csproj.GenerateResource.cache
+C:\Users\risca\projects\RoadToLKS B2\CRUDEF\obj\Debug\CRUDEF.csproj.CoreCompileInputs.cache
+C:\Users\risca\projects\RoadToLKS B2\CRUDEF\obj\Debug\CRUDEF.csproj.CopyComplete
+C:\Users\risca\projects\RoadToLKS B2\CRUDEF\obj\Debug\CRUDEF.exe
+C:\Users\risca\projects\RoadToLKS B2\CRUDEF\obj\Debug\CRUDEF.pdb
+C:\Users\risca\projects\RoadToLKS B2\CRUDEF\obj\Debug\CRUDEF.Form3.resources
+C:\Users\risca\projects\RoadToLKS B2\CRUDEF\obj\Debug\CRUDEF.Form2.resources

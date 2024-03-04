@@ -1,0 +1,20 @@
+C:\Users\risca\projects\RoadToLKS B2\Desktop - Entity Framework\bin\Debug\Desktop - Entity Framework.exe.config
+C:\Users\risca\projects\RoadToLKS B2\Desktop - Entity Framework\bin\Debug\Desktop - Entity Framework.exe
+C:\Users\risca\projects\RoadToLKS B2\Desktop - Entity Framework\bin\Debug\Desktop - Entity Framework.pdb
+C:\Users\risca\projects\RoadToLKS B2\Desktop - Entity Framework\obj\Debug\Desktop - Entity Framework.csproj.AssemblyReference.cache
+C:\Users\risca\projects\RoadToLKS B2\Desktop - Entity Framework\obj\Debug\Desktop___Entity_Framework.Form1.resources
+C:\Users\risca\projects\RoadToLKS B2\Desktop - Entity Framework\obj\Debug\Desktop___Entity_Framework.Properties.Resources.resources
+C:\Users\risca\projects\RoadToLKS B2\Desktop - Entity Framework\obj\Debug\Desktop - Entity Framework.csproj.GenerateResource.cache
+C:\Users\risca\projects\RoadToLKS B2\Desktop - Entity Framework\obj\Debug\Desktop - Entity Framework.csproj.CoreCompileInputs.cache
+C:\Users\risca\projects\RoadToLKS B2\Desktop - Entity Framework\obj\Debug\Desktop - Entity Framework.exe
+C:\Users\risca\projects\RoadToLKS B2\Desktop - Entity Framework\obj\Debug\Desktop - Entity Framework.pdb
+C:\Users\risca\projects\RoadToLKS B2\Desktop - Entity Framework\bin\Debug\EntityFramework.dll
+C:\Users\risca\projects\RoadToLKS B2\Desktop - Entity Framework\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\risca\projects\RoadToLKS B2\Desktop - Entity Framework\bin\Debug\EntityFramework.xml
+C:\Users\risca\projects\RoadToLKS B2\Desktop - Entity Framework\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\risca\projects\RoadToLKS B2\Desktop - Entity Framework\obj\Debug\Desktop - Entity Framework.csproj.CopyComplete
+C:\Users\risca\projects\RoadToLKS B2\Desktop - Entity Framework\obj\Debug\Desktop___Entity_Framework.Form2.resources
+C:\Users\risca\projects\RoadToLKS B2\Desktop - Entity Framework\obj\Debug\Desktop___Entity_Framework.Form3.resources
+C:\Users\risca\projects\RoadToLKS B2\Desktop - Entity Framework\obj\Debug\Desktop___Entity_Framework.Form4.resources
+C:\Users\risca\projects\RoadToLKS B2\Desktop - Entity Framework\obj\Debug\Desktop___Entity_Framework.Form5.resources
+C:\Users\risca\projects\RoadToLKS B2\Desktop - Entity Framework\obj\Debug\Desktop___Entity_Framework.Form6.resources

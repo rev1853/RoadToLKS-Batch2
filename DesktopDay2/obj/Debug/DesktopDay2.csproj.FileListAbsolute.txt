@@ -1,0 +1,15 @@
+C:\Users\risca\projects\RoadToLKS B2\DesktopDay2\bin\Debug\DesktopDay2.exe.config
+C:\Users\risca\projects\RoadToLKS B2\DesktopDay2\bin\Debug\DesktopDay2.exe
+C:\Users\risca\projects\RoadToLKS B2\DesktopDay2\bin\Debug\DesktopDay2.pdb
+C:\Users\risca\projects\RoadToLKS B2\DesktopDay2\bin\Debug\EntityFramework.dll
+C:\Users\risca\projects\RoadToLKS B2\DesktopDay2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\risca\projects\RoadToLKS B2\DesktopDay2\bin\Debug\EntityFramework.xml
+C:\Users\risca\projects\RoadToLKS B2\DesktopDay2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\risca\projects\RoadToLKS B2\DesktopDay2\obj\Debug\DesktopDay2.csproj.AssemblyReference.cache
+C:\Users\risca\projects\RoadToLKS B2\DesktopDay2\obj\Debug\DesktopDay2.Form1.resources
+C:\Users\risca\projects\RoadToLKS B2\DesktopDay2\obj\Debug\DesktopDay2.Properties.Resources.resources
+C:\Users\risca\projects\RoadToLKS B2\DesktopDay2\obj\Debug\DesktopDay2.csproj.GenerateResource.cache
+C:\Users\risca\projects\RoadToLKS B2\DesktopDay2\obj\Debug\DesktopDay2.csproj.CoreCompileInputs.cache
+C:\Users\risca\projects\RoadToLKS B2\DesktopDay2\obj\Debug\DesktopDay2.csproj.CopyComplete
+C:\Users\risca\projects\RoadToLKS B2\DesktopDay2\obj\Debug\DesktopDay2.exe
+C:\Users\risca\projects\RoadToLKS B2\DesktopDay2\obj\Debug\DesktopDay2.pdb

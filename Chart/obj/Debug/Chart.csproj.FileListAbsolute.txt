@@ -1,0 +1,15 @@
+C:\Users\risca\projects\RoadToLKS B2\Chart\bin\Debug\Chart.exe.config
+C:\Users\risca\projects\RoadToLKS B2\Chart\bin\Debug\Chart.exe
+C:\Users\risca\projects\RoadToLKS B2\Chart\bin\Debug\Chart.pdb
+C:\Users\risca\projects\RoadToLKS B2\Chart\obj\Debug\Chart.csproj.AssemblyReference.cache
+C:\Users\risca\projects\RoadToLKS B2\Chart\obj\Debug\Chart.Form1.resources
+C:\Users\risca\projects\RoadToLKS B2\Chart\obj\Debug\Chart.Properties.Resources.resources
+C:\Users\risca\projects\RoadToLKS B2\Chart\obj\Debug\Chart.csproj.GenerateResource.cache
+C:\Users\risca\projects\RoadToLKS B2\Chart\obj\Debug\Chart.csproj.CoreCompileInputs.cache
+C:\Users\risca\projects\RoadToLKS B2\Chart\obj\Debug\Chart.exe
+C:\Users\risca\projects\RoadToLKS B2\Chart\obj\Debug\Chart.pdb
+C:\Users\risca\projects\RoadToLKS B2\Chart\bin\Debug\EntityFramework.dll
+C:\Users\risca\projects\RoadToLKS B2\Chart\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\risca\projects\RoadToLKS B2\Chart\bin\Debug\EntityFramework.xml
+C:\Users\risca\projects\RoadToLKS B2\Chart\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\risca\projects\RoadToLKS B2\Chart\obj\Debug\Chart.csproj.CopyComplete
