@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\risca\\projects\\RoadToLKS B2\\HeroAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{90F6C34C-B177-4099-9614-E591034800A2}|HeroAPI.csproj|c:\\users\\risca\\projects\\roadtolks b2\\heroapi\\dtos\\response\\heroresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90F6C34C-B177-4099-9614-E591034800A2}|HeroAPI.csproj|solutionrelative:dtos\\response\\heroresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90F6C34C-B177-4099-9614-E591034800A2}|HeroAPI.csproj|c:\\users\\risca\\projects\\roadtolks b2\\heroapi\\dtos\\response\\clanresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90F6C34C-B177-4099-9614-E591034800A2}|HeroAPI.csproj|solutionrelative:dtos\\response\\clanresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{90F6C34C-B177-4099-9614-E591034800A2}|HeroAPI.csproj|c:\\users\\risca\\projects\\roadtolks b2\\heroapi\\controllers\\elementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90F6C34C-B177-4099-9614-E591034800A2}|HeroAPI.csproj|solutionrelative:controllers\\elementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,11 +34,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HeroResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\risca\\projects\\RoadToLKS B2\\HeroAPI\\DTOs\\Response\\HeroResponseDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\Response\\HeroResponseDTO.cs",
+              "ToolTip": "C:\\Users\\risca\\projects\\RoadToLKS B2\\HeroAPI\\DTOs\\Response\\HeroResponseDTO.cs",
+              "RelativeToolTip": "DTOs\\Response\\HeroResponseDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T07:21:56.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ClanResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\risca\\projects\\RoadToLKS B2\\HeroAPI\\DTOs\\Response\\ClanResponseDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\Response\\ClanResponseDTO.cs",
+              "ToolTip": "C:\\Users\\risca\\projects\\RoadToLKS B2\\HeroAPI\\DTOs\\Response\\ClanResponseDTO.cs",
+              "RelativeToolTip": "DTOs\\Response\\ClanResponseDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T07:21:52.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ElementRequestDTO.cs",
               "DocumentMoniker": "C:\\Users\\risca\\projects\\RoadToLKS B2\\HeroAPI\\DTOs\\Request\\ElementRequestDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\Request\\ElementRequestDTO.cs",
@@ -43,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\risca\\projects\\RoadToLKS B2\\HeroAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -56,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ElementResponseDTO.cs",
               "DocumentMoniker": "C:\\Users\\risca\\projects\\RoadToLKS B2\\HeroAPI\\DTOs\\Response\\ElementResponseDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\Response\\ElementResponseDTO.cs",
@@ -69,13 +103,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ElementController.cs",
               "DocumentMoniker": "C:\\Users\\risca\\projects\\RoadToLKS B2\\HeroAPI\\Controllers\\ElementController.cs",
               "RelativeDocumentMoniker": "Controllers\\ElementController.cs",
               "ToolTip": "C:\\Users\\risca\\projects\\RoadToLKS B2\\HeroAPI\\Controllers\\ElementController.cs",
               "RelativeToolTip": "Controllers\\ElementController.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAgwDAAAAAZAAAA",
+              "ViewState": "AQIAADkAAAAAAAAAAAAkwE0AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-05T07:10:50.797Z",
               "EditorCaption": ""
