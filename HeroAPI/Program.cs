@@ -26,6 +26,15 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-app.MapSkillEndpoints();
-
 app.Run();
+
+namespace HeroAPI
+{
+    public class Converter
+    {
+        public static A? ConvertClass<A, B>(B? obj)
+        {
+            return JsonConvert.DeserializeObject<A>(JsonConvert.SerializeObject(obj));
+        }
+    }
+}

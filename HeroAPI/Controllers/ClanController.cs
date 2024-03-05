@@ -6,8 +6,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using HeroAPI.Database;
-using HeroAPI.DTOs;
-using System.Text.Json;
+using HeroAPI.DTOs.Response;
+using HeroAPI.DTOs.Request;
 
 namespace HeroAPI.Controllers
 {
@@ -24,9 +24,9 @@ namespace HeroAPI.Controllers
 
         // GET: api/Clan
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Clan>>> GetClans()
+        public async Task<ActionResult<IEnumerable<ClanResponseDTO?>>> GetClans()
         {
-            return await _context.Clans.ToListAsync();
+            return await _context.Clans.Select(e => Converter.ConvertClass<ClanResponseDTO, Clan>(e)).ToListAsync();
         }
 
         // GET: api/Clan/5
@@ -46,7 +46,7 @@ namespace HeroAPI.Controllers
         // PUT: api/Clan/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutClan(int id, ClanDTO clan)
+        public async Task<IActionResult> PutClan(int id, ClanRequestDTO clan)
         {
             clan.Id = id;
             _context.Entry(clan).State = EntityState.Modified;
@@ -73,10 +73,10 @@ namespace HeroAPI.Controllers
         // POST: api/Clan
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Clan>> PostClan(ClanDTO clan)
+        public async Task<ActionResult<Clan>> PostClan(ClanRequestDTO clan)
         {
             clan.Id = 0;
-            await _context.Clans.AddAsync(clan);
+            _context.Clans.Add(clan);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetClan", new { id = clan.Id }, clan);

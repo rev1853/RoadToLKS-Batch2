@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[HeroAPI.Database.Clan, HeroAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HeroAPI.DTOs.Response.ClanResponseDTO, HeroAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -29,7 +29,7 @@
     "Parameters": [
       {
         "Name": "clan",
-        "Type": "HeroAPI.DTOs.ClanDTO",
+        "Type": "HeroAPI.DTOs.Request.ClanRequestDTO",
         "IsRequired": true
       }
     ],
@@ -86,7 +86,7 @@
       },
       {
         "Name": "clan",
-        "Type": "HeroAPI.DTOs.ClanDTO",
+        "Type": "HeroAPI.DTOs.Request.ClanRequestDTO",
         "IsRequired": true
       }
     ],
@@ -109,224 +109,6 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "HeroAPI.Controllers.ElementController",
-    "Method": "GetElements",
-    "RelativePath": "api/Element",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[HeroAPI.Database.Element, HeroAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "HeroAPI.Controllers.ElementController",
-    "Method": "PostElement",
-    "RelativePath": "api/Element",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "element",
-        "Type": "HeroAPI.DTOs.ElementDTO",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "HeroAPI.Database.Element",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "HeroAPI.Controllers.ElementController",
-    "Method": "GetElement",
-    "RelativePath": "api/Element/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "HeroAPI.DTOs.ElementDTO",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "HeroAPI.Controllers.ElementController",
-    "Method": "PutElement",
-    "RelativePath": "api/Element/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "element",
-        "Type": "HeroAPI.DTOs.ElementDTO",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "HeroAPI.Controllers.ElementController",
-    "Method": "DeleteElement",
-    "RelativePath": "api/Element/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "HeroAPI.Controllers.FightHistorieController",
-    "Method": "GetFightHistories",
-    "RelativePath": "api/FightHistorie",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[HeroAPI.Database.FightHistory, HeroAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "HeroAPI.Controllers.FightHistorieController",
-    "Method": "PostFightHistory",
-    "RelativePath": "api/FightHistorie",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "fightHistory",
-        "Type": "HeroAPI.Database.FightHistory",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "HeroAPI.Database.FightHistory",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "HeroAPI.Controllers.FightHistorieController",
-    "Method": "GetFightHistory",
-    "RelativePath": "api/FightHistorie/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "HeroAPI.Database.FightHistory",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "HeroAPI.Controllers.FightHistorieController",
-    "Method": "PutFightHistory",
-    "RelativePath": "api/FightHistorie/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "fightHistory",
-        "Type": "HeroAPI.Database.FightHistory",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "HeroAPI.Controllers.FightHistorieController",
-    "Method": "DeleteFightHistory",
-    "RelativePath": "api/FightHistorie/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "HeroAPI.Controllers.HeroController",
     "Method": "GetHeroes",
     "RelativePath": "api/Hero",
@@ -336,7 +118,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[HeroAPI.DTOs.HeroDTO, HeroAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HeroAPI.DTOs.Response.HeroResponseDTO, HeroAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -356,7 +138,7 @@
     "Parameters": [
       {
         "Name": "hero",
-        "Type": "HeroAPI.DTOs.HeroDTO",
+        "Type": "HeroAPI.Database.Hero",
         "IsRequired": true
       }
     ],
@@ -413,7 +195,7 @@
       },
       {
         "Name": "hero",
-        "Type": "HeroAPI.DTOs.HeroDTO",
+        "Type": "HeroAPI.Database.Hero",
         "IsRequired": true
       }
     ],
@@ -434,135 +216,5 @@
       }
     ],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "HeroAPI.Database.SkillEndpoints\u002B\u003C\u003Ec",
-    "Method": "\u003CMapSkillEndpoints\u003Eb__0_0",
-    "RelativePath": "api/Skill/",
-    "HttpMethod": "GET",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.List\u00601[[HeroAPI.Database.Skill, HeroAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "application/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "HeroAPI.Database.SkillEndpoints\u002B\u003C\u003Ec",
-    "Method": "\u003CMapSkillEndpoints\u003Eb__0_3",
-    "RelativePath": "api/Skill/",
-    "HttpMethod": "POST",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "skill",
-        "Type": "HeroAPI.Database.Skill",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "HeroAPI.Database.Skill",
-        "MediaTypes": [
-          "application/json"
-        ],
-        "StatusCode": 201
-      }
-    ]
-  },
-  {
-    "ContainingType": "HeroAPI.Database.SkillEndpoints\u002B\u003C\u003Ec",
-    "Method": "\u003CMapSkillEndpoints\u003Eb__0_1",
-    "RelativePath": "api/Skill/{id}",
-    "HttpMethod": "GET",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "HeroAPI.Database.Skill",
-        "MediaTypes": [
-          "application/json"
-        ],
-        "StatusCode": 200
-      },
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 404
-      }
-    ]
-  },
-  {
-    "ContainingType": "HeroAPI.Database.SkillEndpoints\u002B\u003C\u003Ec",
-    "Method": "\u003CMapSkillEndpoints\u003Eb__0_2",
-    "RelativePath": "api/Skill/{id}",
-    "HttpMethod": "PUT",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "skill",
-        "Type": "HeroAPI.Database.Skill",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      },
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 404
-      }
-    ]
-  },
-  {
-    "ContainingType": "HeroAPI.Database.SkillEndpoints\u002B\u003C\u003Ec",
-    "Method": "\u003CMapSkillEndpoints\u003Eb__0_4",
-    "RelativePath": "api/Skill/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": false,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      },
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 404
-      }
-    ]
   }
 ]

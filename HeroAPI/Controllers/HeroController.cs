@@ -6,8 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using HeroAPI.Database;
-using HeroAPI.DTOs;
-using Newtonsoft.Json;
+using HeroAPI.DTOs.Response;
 
 namespace HeroAPI.Controllers
 {
@@ -24,13 +23,9 @@ namespace HeroAPI.Controllers
 
         // GET: api/Hero
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<HeroDTO>>> GetHeroes()
+        public async Task<ActionResult<IEnumerable<HeroResponseDTO?>>> GetHeroes()
         {
-            var heroes = await _context.Heroes.Include(e => e.Clan).ToListAsync();
-            return Ok(heroes.Select(e =>
-            {
-                return JsonConvert.DeserializeObject<HeroDTO>(JsonConvert.SerializeObject(e));
-            }).ToList());
+            return await _context.Heroes.Include(e => e.Clan).Select(e => Converter.ConvertClass<HeroResponseDTO, Hero>(e)).ToListAsync();
         }
 
         // GET: api/Hero/5
@@ -44,13 +39,13 @@ namespace HeroAPI.Controllers
                 return NotFound();
             }
 
-            return Ok(JsonConvert.DeserializeObject<HeroDTO>(JsonConvert.SerializeObject(hero)));
+            return hero;
         }
 
         // PUT: api/Hero/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutHero(int id, HeroDTO hero)
+        public async Task<IActionResult> PutHero(int id, Hero hero)
         {
             if (id != hero.Id)
             {
@@ -81,7 +76,7 @@ namespace HeroAPI.Controllers
         // POST: api/Hero
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Hero>> PostHero(HeroDTO hero)
+        public async Task<ActionResult<Hero>> PostHero(Hero hero)
         {
             _context.Heroes.Add(hero);
             await _context.SaveChangesAsync();
