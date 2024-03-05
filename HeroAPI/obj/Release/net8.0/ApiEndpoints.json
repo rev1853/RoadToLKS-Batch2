@@ -109,6 +109,115 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "HeroAPI.Controllers.ElementController",
+    "Method": "GetElements",
+    "RelativePath": "api/Element",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[HeroAPI.DTOs.Response.ElementResponseDTO, HeroAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HeroAPI.Controllers.ElementController",
+    "Method": "PostElement",
+    "RelativePath": "api/Element",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "element",
+        "Type": "HeroAPI.DTOs.Request.ElementRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HeroAPI.Database.Element",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HeroAPI.Controllers.ElementController",
+    "Method": "GetElement",
+    "RelativePath": "api/Element/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "HeroAPI.Database.Element",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "HeroAPI.Controllers.ElementController",
+    "Method": "PutElement",
+    "RelativePath": "api/Element/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "element",
+        "Type": "HeroAPI.DTOs.Request.ElementRequestDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HeroAPI.Controllers.ElementController",
+    "Method": "DeleteElement",
+    "RelativePath": "api/Element/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "HeroAPI.Controllers.HeroController",
     "Method": "GetHeroes",
     "RelativePath": "api/Hero",
