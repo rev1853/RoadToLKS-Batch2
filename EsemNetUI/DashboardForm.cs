@@ -16,5 +16,30 @@ namespace EsemNetUI
         {
             InitializeComponent();
         }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void masterPaketToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Master Komputer");
+        }
+
+        private void masterToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Master Paket");
+        }
+
+        private void masterMemberToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Master Member");
+        }
+
+        private void masterKodePotonganHargaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Master Kode Potongan Harga");
+        }
     }
 }

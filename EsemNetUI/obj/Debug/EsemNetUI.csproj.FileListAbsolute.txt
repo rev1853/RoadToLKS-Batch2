@@ -2,7 +2,6 @@ C:\Users\risca\projects\RoadToLKS B2\EsemNetUI\bin\Debug\EsemNetUI.exe.config
 C:\Users\risca\projects\RoadToLKS B2\EsemNetUI\bin\Debug\EsemNetUI.exe
 C:\Users\risca\projects\RoadToLKS B2\EsemNetUI\bin\Debug\EsemNetUI.pdb
 C:\Users\risca\projects\RoadToLKS B2\EsemNetUI\obj\Debug\EsemNetUI.csproj.AssemblyReference.cache
-C:\Users\risca\projects\RoadToLKS B2\EsemNetUI\obj\Debug\EsemNetUI.LoginForm.resources
 C:\Users\risca\projects\RoadToLKS B2\EsemNetUI\obj\Debug\EsemNetUI.Properties.Resources.resources
 C:\Users\risca\projects\RoadToLKS B2\EsemNetUI\obj\Debug\EsemNetUI.csproj.GenerateResource.cache
 C:\Users\risca\projects\RoadToLKS B2\EsemNetUI\obj\Debug\EsemNetUI.csproj.CoreCompileInputs.cache
@@ -10,3 +9,14 @@ C:\Users\risca\projects\RoadToLKS B2\EsemNetUI\obj\Debug\EsemNetUI.exe
 C:\Users\risca\projects\RoadToLKS B2\EsemNetUI\obj\Debug\EsemNetUI.pdb
 C:\Users\risca\projects\RoadToLKS B2\EsemNetUI\obj\Debug\EsemNetUI.LoginFormAdmin.resources
 C:\Users\risca\projects\RoadToLKS B2\EsemNetUI\obj\Debug\EsemNetUI.DashboardForm.resources
+C:\Users\risca\projects\RoadToLKS B2\EsemNetUI\obj\Debug\EsemNetUI.TransaksiCardUserControl.resources
+C:\Users\risca\projects\RoadToLKS B2\EsemNetUI\obj\Debug\EsemNetUI.MasterKomputerForm.resources
+C:\Users\risca\projects\RoadToLKS B2\EsemNetUI\obj\Debug\EsemNetUI.MasterPaketForm.resources
+C:\Users\risca\projects\RoadToLKS B2\EsemNetUI\obj\Debug\EsemNetUI.MasterKodePromo.resources
+C:\Users\risca\projects\RoadToLKS B2\EsemNetUI\obj\Debug\EsemNetUI.PilihMember.resources
+C:\Users\risca\projects\RoadToLKS B2\EsemNetUI\obj\Debug\EsemNetUI.TambahTransaksiForm.resources
+C:\Users\risca\projects\RoadToLKS B2\EsemNetUI\obj\Debug\EsemNetUI.MasterTransaksiForm.resources
+C:\Users\risca\projects\RoadToLKS B2\EsemNetUI\obj\Debug\EsemNetUI.MasterMemberForm.resources
+C:\Users\risca\projects\RoadToLKS B2\EsemNetUI\obj\Debug\EsemNetUI.DetailTransaksiForm.resources
+C:\Users\risca\projects\RoadToLKS B2\EsemNetUI\obj\Debug\EsemNetUI.TambahDurasi.resources
+C:\Users\risca\projects\RoadToLKS B2\EsemNetUI\obj\Debug\EsemNetUI.Form1.resources

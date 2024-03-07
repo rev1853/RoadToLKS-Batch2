@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace HeroAPI.Database;
 
-public partial class Element
+public class Element
 {
     public int Id { get; set; }
 
