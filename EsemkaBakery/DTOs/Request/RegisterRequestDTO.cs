@@ -13,7 +13,7 @@ namespace EsemkaBakery.DTOs.Request
         [JsonIgnore]
         public new int UserID { get => base.UserID; set => base.UserID = value; }
         [EmailAddress]
-        public new string Email { get; set; } = string.Empty;
+        public new string Email { get => base.Email; set => base.Email = value; }
         [JsonIgnore]
         public override ICollection<Order> Orders { set => base.Orders = value; }
     }

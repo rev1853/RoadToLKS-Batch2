@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EsemkaBakery")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6fe51333e9dfd1a5d4db15ea963ed45bede9958")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ca2931c42b661cc01a56e0ed9555f9b7f6d8f81")]
 [assembly: System.Reflection.AssemblyProductAttribute("EsemkaBakery")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EsemkaBakery")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
