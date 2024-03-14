@@ -126,6 +126,7 @@
     <Compile Include="TransaksiCardUserControl.Designer.cs">
       <DependentUpon>TransaksiCardUserControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Types.cs" />
     <EmbeddedResource Include="DashboardForm.resx">
       <DependentUpon>DashboardForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -175,6 +176,9 @@
     <EmbeddedResource Include="TransaksiCardUserControl.resx">
       <DependentUpon>TransaksiCardUserControl.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="Properties\DataSources\FormAdminData.datasource" />
+    <None Include="Properties\DataSources\LoginFormAdmin.datasource" />
+    <None Include="Properties\DataSources\Types.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

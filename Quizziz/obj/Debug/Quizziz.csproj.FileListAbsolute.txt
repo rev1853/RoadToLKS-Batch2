@@ -1,0 +1,16 @@
+C:\Users\risca\projects\RoadToLKS B2\Quizziz\bin\Debug\Quizziz.exe.config
+C:\Users\risca\projects\RoadToLKS B2\Quizziz\bin\Debug\Quizziz.exe
+C:\Users\risca\projects\RoadToLKS B2\Quizziz\bin\Debug\Quizziz.pdb
+C:\Users\risca\projects\RoadToLKS B2\Quizziz\bin\Debug\EntityFramework.dll
+C:\Users\risca\projects\RoadToLKS B2\Quizziz\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\risca\projects\RoadToLKS B2\Quizziz\bin\Debug\EntityFramework.xml
+C:\Users\risca\projects\RoadToLKS B2\Quizziz\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\risca\projects\RoadToLKS B2\Quizziz\obj\Debug\Quizziz.csproj.AssemblyReference.cache
+C:\Users\risca\projects\RoadToLKS B2\Quizziz\obj\Debug\Quizziz.Form1.resources
+C:\Users\risca\projects\RoadToLKS B2\Quizziz\obj\Debug\Quizziz.Properties.Resources.resources
+C:\Users\risca\projects\RoadToLKS B2\Quizziz\obj\Debug\Quizziz.csproj.GenerateResource.cache
+C:\Users\risca\projects\RoadToLKS B2\Quizziz\obj\Debug\Quizziz.csproj.CoreCompileInputs.cache
+C:\Users\risca\projects\RoadToLKS B2\Quizziz\obj\Debug\Quizziz.csproj.Up2Date
+C:\Users\risca\projects\RoadToLKS B2\Quizziz\obj\Debug\Quizziz.exe
+C:\Users\risca\projects\RoadToLKS B2\Quizziz\obj\Debug\Quizziz.pdb
+C:\Users\risca\projects\RoadToLKS B2\Quizziz\obj\Debug\Quizziz.Form2.resources

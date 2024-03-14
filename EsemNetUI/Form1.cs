@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -19,6 +20,11 @@ namespace EsemNetUI
 
         public Form1()
         {
+            var nama = "revan";
+            
+            var plainTextBytes = System.Text.Encoding.UTF8.GetBytes(nama);
+            var base64 = System.Convert.ToBase64String(plainTextBytes);
+            Console.WriteLine(base64);
             InitializeComponent();
         }
 
